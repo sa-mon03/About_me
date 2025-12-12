@@ -3,6 +3,13 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>about_me</title>
 <link rel="stylesheet" href="styles.css">
+<style>
+  /* リンク（aタグ）や段落（pタグ）の中の長い英数字を、枠に合わせて強制的に改行させる */
+  a, p {
+    overflow-wrap: break-word; /* 可能な場所で折り返す */
+    word-break: break-all;     /* 必要なら単語の途中でも折り返す（URL用） */
+  }
+</style>
 </head>
 <body>
 <header class="site-header">
